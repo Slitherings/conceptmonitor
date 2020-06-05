@@ -187,7 +187,7 @@ def monitor(link, keywords, discord):
                 image = "N/A"
 
             if not title:
-                title: "N/A"
+                title = "N/A"
 
             # get the data
             url = (l+".json"+"?admin=True")
